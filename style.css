@@ -377,6 +377,11 @@ a:focus-visible {
   outline-offset: 4px;
 }
 
+.skillicons {
+  width: 2em;
+  height: 2em;
+}
+
 @media (max-width: 640px) {
   .page {
     width: calc(100% - 40px);
@@ -434,6 +439,7 @@ a:focus-visible {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {
